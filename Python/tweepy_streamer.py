@@ -4,6 +4,9 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
 import twitter_credential
+#Sys library to get that output into a file
+import sys
+
 #Creating MyStreamListenerclass
 class MyStreamListener(StreamListener):
     
@@ -27,4 +30,6 @@ auth=OAuthHandler(twitter_credential.Consumer_Key, twitter_credential.Consumer_K
 auth.set_access_token(twitter_credential.Access_Token, twitter_credential.Access_Token_Secret)
 stream=Stream(auth, myStreamListener)
 #Function to search for a tweet having particular word. For example: Donald trump.
-stream.filter(track=['donald trump'])
+stream.filter(track=['9 year challenge'])
+sys.stdout = open('output.json', 'w')      #To copy output to file
+#print 'test'

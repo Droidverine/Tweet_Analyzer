@@ -1,6 +1,7 @@
 # Enter your twitter api keys below
+import tweepy
+Access_Token="448140491-9geQ6MbH0voyY9jPYp51jaTYj0m4b5L25rPLI0ly"
+Access_Token_Secret="owBK4P7Um0szSkKVt1jR89VBcCOSHlbqaiAKRg8080jj5"
+Consumer_Key="DZIF3QS3wf8pYC7mZr6zGdKkM"
+Consumer_Key_Secret="fi0fR2GPZNO4ex2g83coD6kinTzu5OPBaNgGIMO5uFWOEMYqSw"
 
-Access_Token=""
-Access_Token_Secret=""
-Consumer_Key=""
-Consumer_Key_Secret=""
