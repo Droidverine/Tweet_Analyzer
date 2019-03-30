@@ -48,6 +48,6 @@ class MyStreamListener(StreamListener):
 if __name__=="__main__" :
     names=input("Enter keyword to be searched:")
     search_param= [names]    
-    fetched_tweets_filename= "Tweets.json"
+    fetched_tweets_filename= "Tweet.json"
     twitter_streamer = TweetStreamer()
     twitter_streamer.stream_tweets(fetched_tweets_filename, search_param)
